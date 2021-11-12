@@ -33,7 +33,7 @@ const Photo = ({
   };
 
   return (
-    <img
+    <img 
       key={key}
       style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle}
       {...photo}
